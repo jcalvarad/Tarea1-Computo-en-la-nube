@@ -21,6 +21,7 @@ int main()
 	}
 
 	int pedazos = chunk;
+	int muestra = mostrar;
 
 	#pragma omp parallel for \
 	shared (a,b,c, pedazos) private (i) \
@@ -30,17 +31,19 @@ int main()
 		c[i] = a[i] + b[i];
 
 
-	std::cout << "imprimiendo los primeros " << mostrar << " valores del arreglo a: " << std::endl;
+	std::cout << "imprimiendo los primeros " << muestra << " valores del arreglo a: " << std::endl;
 	imprimeArreglo(a);
-	std::cout << "imprimiendo los primeros " << mostrar << " valores del arreglo b: " << std::endl;
+	std::cout << "imprimiendo los primeros " << muestra << " valores del arreglo b: " << std::endl;
 	imprimeArreglo(b);
-	std::cout << "imprimiendo los primeros " << mostrar << " valores del arreglo c: " << std::endl;
+	std::cout << "imprimiendo los primeros " << muestra << " valores del arreglo c: " << std::endl;
 	imprimeArreglo(c);
+
 
 }
 
 void imprimeArreglo(float* d) {
-	for (int x = 0; x < mostrar; x++)
+	int muestra = mostrar;
+	for (int x = 0; x < muestra; x++)
 		std::cout << d[x] << " - ";
 	std::cout << std::endl;
 }

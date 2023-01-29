@@ -1,11 +1,5 @@
 ﻿  pruebaOMP.cpp
 C:\Users\Volindo Development\source\repos\pruebaOMP\pruebaOMP\pruebaOMP.cpp(19,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
 C:\Users\Volindo Development\source\repos\pruebaOMP\pruebaOMP\pruebaOMP.cpp(20,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Volindo Development\source\repos\pruebaOMP\pruebaOMP\pruebaOMP.cpp(33,54): error C2059: syntax error: '<<'
-C:\Users\Volindo Development\source\repos\pruebaOMP\pruebaOMP\pruebaOMP.cpp(35,54): error C2059: syntax error: '<<'
-C:\Users\Volindo Development\source\repos\pruebaOMP\pruebaOMP\pruebaOMP.cpp(37,54): error C2059: syntax error: '<<'
-C:\Users\Volindo Development\source\repos\pruebaOMP\pruebaOMP\pruebaOMP.cpp(43,31): error C2146: syntax error: missing ')' before identifier 'x'
-C:\Users\Volindo Development\source\repos\pruebaOMP\pruebaOMP\pruebaOMP.cpp(43,32): error C2059: syntax error: ';'
-C:\Users\Volindo Development\source\repos\pruebaOMP\pruebaOMP\pruebaOMP.cpp(43,34): error C2059: syntax error: ')'
-C:\Users\Volindo Development\source\repos\pruebaOMP\pruebaOMP\pruebaOMP.cpp(44,8): error C2143: syntax error: missing ';' before 'std::cout'
-C:\Users\Volindo Development\source\repos\pruebaOMP\pruebaOMP\pruebaOMP.cpp(44,18): error C2065: 'x': undeclared identifier
+C:\Users\Volindo Development\source\repos\pruebaOMP\pruebaOMP\pruebaOMP.cpp(12,5): warning C4101: 'i': unreferenced local variable
+  pruebaOMP.vcxproj -> C:\Users\Volindo Development\source\repos\pruebaOMP\x64\Debug\pruebaOMP.exe
